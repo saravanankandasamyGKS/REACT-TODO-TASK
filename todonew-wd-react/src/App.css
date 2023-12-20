@@ -1,0 +1,118 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: whitesmoke;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+input,
+select,
+button {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.todo {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; /* Set flex-direction to column */
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo:hover {
+  transform: scale(1.03);
+}
+
+.todo h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.todo p {
+  margin: 8px 0;
+  background-color: whitesmoke;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.todo button {
+  background-color: grey;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.todo button:hover {
+  background-color: #bbb;
+}
+
+.filter {
+  margin-top: 15px;
+  text-align: center;
+}
+.todo{
+  background-color: whitesmoke;
+}
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+footer {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+}
